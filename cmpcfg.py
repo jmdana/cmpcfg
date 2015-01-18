@@ -28,8 +28,10 @@ def scan_file(fname, comment):
         if comment_re.match(line):
             continue
 
-        if line.strip():
-            contents.append(line.strip())
+        line = line.strip()
+
+        if line:
+            contents.append(line)
 
     f.close()
     return set(contents)
