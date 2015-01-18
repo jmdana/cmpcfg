@@ -108,7 +108,7 @@ if __name__ == '__main__':
         print(e)
         sys.exit(-1)
 
-    if contents1 == contents2:
+    if set(contents1.keys()) == set(contents2.keys()):
         print("They are equivalent")
         sys.exit(0)
 
