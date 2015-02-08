@@ -2,7 +2,7 @@
 
 pkgname=cmpcfg
 pypiname=cmpcfg
-pkgver=0.5.9
+pkgver=0.6
 pkgrel=1
 pkgdesc="Compares configuration files ignoring comments."
 arch=(any)
@@ -18,7 +18,7 @@ backup=()
 options=(!emptydirs)
 install=
 source=("https://pypi.python.org/packages/source/c/cmpcfg/cmpcfg-$pkgver.tar.gz")
-md5sums=("5ca7c15792f46653da48977dc6becf7e")
+md5sums=("3d9a2dc673341e388daa5842ab467441")
 
 package() {
   cd "$srcdir/$pypiname-$pkgver"

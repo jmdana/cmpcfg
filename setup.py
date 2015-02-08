@@ -56,7 +56,7 @@ class md_easy_install(easy_install):
 
 setup(
     name="cmpcfg",
-    version="0.5.9",
+    version="0.6",
     author="Jose M. Dana",
     description=("A diff tool for configuration files."),
     license="GNU General Public License v2 (GPLv2)",
